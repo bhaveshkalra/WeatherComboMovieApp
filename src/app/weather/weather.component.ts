@@ -22,7 +22,7 @@ export class WeatherComponent implements OnInit {
   humidity: string = "";
   public imageLink;
 
-  constructor(private _sharedService: SharedService) { }
+  constructor(public _sharedService: SharedService) { }
 
   ngOnInit() { }
   callWeatherService() {

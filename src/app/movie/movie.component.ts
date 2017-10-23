@@ -23,7 +23,7 @@ export class MovieComponent implements OnInit {
  
 
   //creating an instance of sharedservice
-  constructor(private _sharedService: SharedService) { }
+  constructor(public _sharedService: SharedService) { }
 
   ngOnInit() { }
 

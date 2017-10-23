@@ -13,7 +13,9 @@ export class SharedService {
   movieURL2="http://api.themoviedb.org/3/movie/";
   movieURL3= "?api_key=5aa2924101cb102ea40ead255bcadd62";
   movieURL4="/images";
-  total_ReqsMade: number = 0; constructor(private _http: Http) { }
+  total_ReqsMade: number = 0; 
+  
+  constructor(private _http: Http) { }
 
   findWeather(city) {
     this.total_ReqsMade = this.total_ReqsMade + 1;
