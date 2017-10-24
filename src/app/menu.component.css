@@ -9,5 +9,15 @@ ul li a:nth-child(1){
 }
 .link{
     font-size:30px;
-    color:#5F00FF;
+    color:#C1C8C0;
+    background: #0E615E;
+    border-radius: 25px;
+}
+.nav-pills>li>a:hover{
+    background: #041A1F;
+    color:#C1C8C0;
+}
+.nav-pills>li.active>a{
+    background: #041A1F;
+    color:#C1C8C0;
 }
