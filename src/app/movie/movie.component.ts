@@ -4,7 +4,7 @@ import { SharedService } from "../shared.service";
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
-  styles: []
+  styleUrls: ['./movie.component.css']
 })
 export class MovieComponent implements OnInit {
 
